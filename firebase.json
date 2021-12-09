@@ -1,0 +1,49 @@
+{
+  "hosting": {
+    "public": "public",
+    "i18n": {
+      "root": "/translations"
+    },
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/event",
+        "destination": "https://www.youtube.com/watch?v=GuHWLdYiKV4",
+        "type": 302 
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(html)",
+        "headers": [ {
+          "key": "Cache-Control",
+          "value": "max-age=7200"
+        } ]
+      },
+      {
+        "source": "**/*.@(js|css)",
+        "headers": [ {
+          "key": "Cache-Control",
+          "value": "max-age=18000"
+        } ]
+      },
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png|svg)",
+        "headers": [ {
+          "key": "Cache-Control",
+          "value": "max-age=18000"
+        } ]
+      }
+    ]
+  }
+}
