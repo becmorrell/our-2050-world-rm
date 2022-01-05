@@ -1,6 +1,6 @@
 # our2050.world 
 
-
+Following a project for a client, I have written a short reflection of the process I used and learning I gained from this.
 
 ## Table of contents
 
