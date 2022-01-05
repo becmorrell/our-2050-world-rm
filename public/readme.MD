@@ -9,9 +9,9 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - []
+  - [Frameworks, Libraries and Programmes used](#frameworks-libraries-and-programmes-used)
+  - [Design](#design)
   - [Challenges](#challenges)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -20,7 +20,6 @@
 
 ### Links
 
-- Solution URL: [https://github.com/becmorrell/frontend-mentor/tree/main/profile-card](https://github.com/becmorrell/frontend-mentor/tree/main/profile-card)
 - Live Site URL: [https://our2050.world/](https://our2050.world/)
 
 ## My process
@@ -38,6 +37,12 @@
 - Git 
 - Github 
 - JQuery
+
+### Design
+
+The Designer on the project provided the following wireframes to work from: 
+
+
 
 
 ### Challenges 🧠
@@ -81,18 +86,26 @@ CSS:
                         - I seperated the windmill wings and added a transiition and rotation on them as a hover state    
 
 
-### Continued development
+JavaScript: 
+- Copy to clipboard: 
+                - snackbar is always present (z-index: 1, visibility is hidden)
+                - when clipboard function runs = `show`
+                - timesout after 3 seconds (by replacing `show` with "")
 
-- continuing practice of flexbox and positioning 
-- importing images and positioning of them (in particular background position when there is multiple images)
-- embedding different webfonts 
+- Language change: 
+                - Language dropdown() = find first child within dropdown list to hide (avoiding repeating language  option)
+                - added event listener to dropdown (click anywhere else but dropdown to close / remove active class)
+
+- Firebase to override cookie for language change
+ 
 
 
 ### Useful resources
 
-- [https://www.w3schools.com/css/css3_backgrounds.asp](https://www.w3schools.com/css/css3_backgrounds.asp) - This heleped with some of the positioning with the background images, however I still struggled with having multiple images stacked on top of each other.
+- [https://www.w3schools.com/css/css3_backgrounds.asp](https://www.w3schools.com/css/css3_backgrounds.asp) 
+- [https://stackoverflow.com](https://stackoverflow.com)
 
 
 ## Author
 
-- Frontend Mentor - [@becmorrell](https://www.frontendmentor.io/profile/becmorrell)
+Rebecca Morrell [https://www.linkedin.com/in/beccamorrell/](https://www.linkedin.com/in/beccamorrell/)
