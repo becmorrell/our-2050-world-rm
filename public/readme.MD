@@ -42,7 +42,14 @@ Following a project for a client, I have written a short reflection of the proce
 
 The Designer on the project provided the following wireframes to work from: 
 
+Mobile:
+<img width="100" alt="Screenshot 2022-01-05 at 16 40 19" src="https://user-images.githubusercontent.com/77584099/148256083-093b0129-574a-430d-921e-2f2888d0ef0c.png">
 
+Tablet:
+<img width="300" alt="Screenshot 2022-01-05 at 16 40 19 copy" src="https://user-images.githubusercontent.com/77584099/148256187-d92ca996-38c3-4b33-8f79-be3d694fef1a.png">
+
+Desktop:
+<img width="600" alt="Screenshot 2022-01-05 at 16 41 46" src="https://user-images.githubusercontent.com/77584099/148256201-0163d80d-7f4c-41ed-ad2c-acccc3f30da9.png">
 
 
 ### Challenges 🧠
