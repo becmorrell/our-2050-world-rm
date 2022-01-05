@@ -41,7 +41,7 @@
 
 ### Challenges 🧠
 
-Throughout this project, there were many challenges and learning oppotunities! I have listed some of the key learning points below.
+Throughout this project, there were many challenges and learning oppotunities I encountered! I have listed some of the key learning points below.
 
 HTML: 
 - Responsive `Hero image` container: 
@@ -55,34 +55,24 @@ HTML:
 I built the language dropdown menu using html instead of JavaScript due to the timeframe and stage of learning I am currently at. This was one of the most challenging but rewarding parts of this project. I built this using a 
 
 
-    ```html
-      <div class="social-container">
-                    <div class="left">
-                        <div class="number-followers">80k</div>
-                        <div class="followers">Followers</div>
-                    </div>
-                    <div class="middle">
-                        <div class="number-likes">803K</div>
-                        <div class="likes">Likes</div>
-                    </div>
-                    <div class="right">
-                        <div class="number-photos">1.4k</div>
-                        <div class="photos">Photos</div>
-    ```
-  
-    - how to create the rounding edges of the profile card
-    - how to create the round profile picture using border-radius and placing a border around this 
-    - then position this half way between two containers 
-    See code here:
-    ```css
-    .profile-picture {
-    display: flex;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 6px solid white;
-    margin-top: -50px; 
-    }
-    ```
+CSS: 
+- Using variables to set colors throughout the page:
+                                - for ease of changing colors if requested by the client 
+                                - readability and reusability throughout the CSS 
+
+- Hover states on the Nav bar:
+                        - I placed the <a> tag on the `li` item 
+                        - Used a box-shadow with y-offset (transparent in its default state)
+                        - transitioned this to the required color over 0.2s on hover 
+
+- Adding <img> of country flag for selected language:
+                                    - for active state, background-image used for selected country 
+
+- Add [rtl] language direction:
+                        - required styling in CSS to support this throughout page (padding / margins to altered)
+
+- Responsive layout for tablet/desktop versions:
+                                    - when making the media queries for the desktop version, I found the 'hero image' difficult to position and define the correct size, yet allow it to grow as the screen becomes larger
 
 ### Continued development
 
