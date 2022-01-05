@@ -9,7 +9,8 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - []
+  - [Challenges](#challenges)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -72,7 +73,13 @@ CSS:
                         - required styling in CSS to support this throughout page (padding / margins to altered)
 
 - Responsive layout for tablet/desktop versions:
-                                    - when making the media queries for the desktop version, I found the 'hero image' difficult to position and define the correct size, yet allow it to grow as the screen becomes larger
+                                    - when making the media queries for the desktop version, I found the 'hero image' difficult to position and define the correct size. This was due to the image becoming too large/wide as the page grows.
+                                    - I found using the width: calc( 100% - 60px) the easiest way to define the size of the image. 
+
+- Animation of Windmill: 
+                        - I added a little animation on the sustainable windmill image!
+                        - I seperated the windmill wings and added a transiition and rotation on them as a hover state    
+
 
 ### Continued development
 
