@@ -60,7 +60,7 @@ HTML:
                 - return to top of page (using smooth scroll)
 - Addded Links to external websites and to email address of BSI.
 
-I built the language dropdown menu using html instead of JavaScript due to the timeframe and stage of learning I am currently at. This was one of the most challenging but rewarding parts of this project. I built this using a 
+I built the language dropdown menu using html instead of JavaScript due to the timeframe and stage of learning I am currently at. This was one of the most challenging but rewarding parts of this project.  
 
 
 CSS: 
