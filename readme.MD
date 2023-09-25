@@ -20,7 +20,8 @@ Following a project for a client, I have written a short reflection of the proce
 
 ### Links
 
-- Live Site URL: [https://our2050.world/](https://our2050.world/)
+- Live Site URL: [https://our2050world.web.app/](https://our2050world.web.app/)
+Previously hosted at our2050.world between COP26 and COP27.
 
 ## My process
 
